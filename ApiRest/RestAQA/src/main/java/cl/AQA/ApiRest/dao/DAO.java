@@ -2,8 +2,10 @@ package cl.AQA.ApiRest.dao;
 import java.util.ArrayList;
 import java.util.List;
 
-import cl.AQA.ApiRest.dto.*;
+import org.springframework.stereotype.Repository;
 
+import cl.AQA.ApiRest.dto.*;
+@Repository
 public class DAO {
 
 	public List<Producto> Listar() {

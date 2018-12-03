@@ -20,7 +20,7 @@ public class Controlador
 	@Autowired
 	protected DAO dao;
 	
-	@RequestMapping(value = "/Listar", method = RequestMethod.POST)
+	@RequestMapping(value = "/Listar", method = RequestMethod.GET)
 	public ResponseEntity<List<Producto>> Listar() {
 		
 	return new ResponseEntity<>(dao.Listar(), HttpStatus.OK);
