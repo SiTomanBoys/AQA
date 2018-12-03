@@ -1,4 +1,4 @@
-package cl.AQA.ApiRest.dao;
+package cl.AQA.ApiRest.dto;
 
 public abstract class Entidad 
 {
